@@ -2,8 +2,8 @@
     "permissions": {
         "tenanta": {
             "patientapp": {
-                "sitesobj": {
-                    "object": "sitesobj",
+                "medicineobj": {
+                    "object": "medicineobj",
                     "roleGrants": [
                         {
                             "allowedGlobalActions": [
