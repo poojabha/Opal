@@ -1,31 +1,23 @@
 {
-    "tenanta": {
-        "patientapp": {
-            "medicineobj": {
-                "object": "medicineobj",
-                "roleGrants": [
-                    {
-                        "allowedGlobalActions": [
-                            "DELETE"
-                        ],
-                        "allowedItemLevelActions": [
-                            ""
-                        ],
-                        "itemLevelFilters": null,
-                        "roleName": "Director Of Pharmacy"
-                    },
-                    {
-                        "allowedGlobalActions": [
-                            "UPDATE"
-                        ],
-                        "allowedItemLevelActions": [
-                            ""
-                        ],
-                        "itemLevelFilters": null,
-                        "roleName": "Director Of Pharmacy"
-                    }
-                ],
-                "sysRefId": "patientapp"
+    "permissions": {
+        "tenanta": {
+            "patientapp": {
+                "sitesobj": {
+                    "object": "sitesobj",
+                    "roleGrants": [
+                        {
+                            "allowedGlobalActions": [
+                                "DELETE"
+                            ],
+                            "allowedItemLevelActions": [
+                                ""
+                            ],
+                            "itemLevelFilters": null,
+                            "roleName": "pharmacist_ROLE_NAME"
+                        }
+                    ],
+                    "sysRefId": "patientapp"
+                }
             }
         }
     }
